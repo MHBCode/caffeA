@@ -53,21 +53,22 @@ body{
     margin-bottom: 25px;
     border-radius: 10px;
 }
-div.scrollmenu {
+.scrollmenu {
     background-color: transparent;
     overflow: auto;
     white-space: nowrap;
+    position: sticky;
   }
-  .scrollmenu a div{
-    height: 60px;
-    width: 60px;
+.scrollmenu a div{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgb(240, 44, 44);
-    line-height: 60px;
+    line-height: 80px;
     font-family: 'Droid Arabic Kufi', serif;
-    font-size: 10px;
+    font-size: 14px;
   }
-  div.scrollmenu a {
+.scrollmenu a {
     display: inline-block;
     color: white;
     text-align: center;
