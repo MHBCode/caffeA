@@ -9,7 +9,9 @@
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="footer.css" > 
         <script>
-           document.body.scrollTop = document.documentElement.scrollTop = 0;
+           $(window).on('beforeunload', function() {
+           $('body').hide(); $(window).scrollTop(0); 
+           });
         </script>
     </head>
     <body>
